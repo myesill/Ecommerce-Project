@@ -24,7 +24,7 @@ const CartComp = ({ cart }) => {
         onClick={() => dispatch(removeFromCart(cart?.id))}
         className="bg-red-500 text-white w-[150px] text-2xl cursor-pointer rounded-md h-16 flex items-center justify-center"
       >
-        Ürünü Sil
+        ÜRÜNÜ SİL
       </div>
     </div>
   );
